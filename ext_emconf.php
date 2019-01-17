@@ -6,12 +6,12 @@
 
 $EM_CONF[$_EXTKEY] = [
 	'title' => 'Grids for bootstrap',
-	'description' => 'Gridelements for bootstrap. Column grids, grids for simple accordions, tabs and content slider.',
+	'description' => 'Gridelements for bootstrap v4. Column grids, tabs and accordion.',
 	'category' => 'misc',
 	'author' => 'Pascal Mayer',
-	'author_email' => 'typo3@bsdist.ch',
+	'author_email' => 'typo3@lascap.ch',
 	'author_company' => '',
-	'version' => '1.4.0',
+	'version' => '2.0.0',
 	'state' => 'stable',
 	'uploadfolder' => '0',
 	'createDirs' => '',
@@ -19,8 +19,8 @@ $EM_CONF[$_EXTKEY] = [
 	'clearCacheOnLoad' => 1,
 	'constraints' => [
 		'depends' => [
-			'typo3' => '8.7.0-8.7.99',
-			'gridelements' => '8.0.0-0.0.0|8.0.0-dev',
+			'typo3' => '8.7.0-9.5.99',
+			'gridelements' => '8.0.0-9.9.99',
 		],
 		'conflicts' => [
 		],
